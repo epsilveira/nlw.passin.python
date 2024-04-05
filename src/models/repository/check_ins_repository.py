@@ -1,6 +1,5 @@
 from typing import Dict
 from src.models.settings.connection import db_connection_handler
-from src.models.entities.attendees import Attendees
 from src.models.entities.check_ins import CheckIns
 from sqlalchemy.exc import IntegrityError
 
