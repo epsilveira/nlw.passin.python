@@ -11,5 +11,5 @@ class CheckIns(Base):
     
 
     def __repr__(self):
-        return f"CheckIns [attendees_id={self.attendees_id}]"
+        return f"CheckIns [attendeeId={self.attendeeId}]"
 
